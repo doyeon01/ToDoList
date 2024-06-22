@@ -1,0 +1,25 @@
+.Footer {
+  width:68%;
+  margin: 15px auto;
+  min-height: 100%;
+  padding: 20px;
+
+
+  
+
+}
+
+.Footer > textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 3px dashed RGB(220, 220, 220);
+
+	
+}
+
+.Footer > textarea:focus{
+  outline: none;
+
+}
+

@@ -1,0 +1,58 @@
+.itembox{
+  display:flex;
+  gap:20px;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.isDone{
+  transform: scale(1.5);
+}
+
+.Edit {
+  display: flex;
+  gap: 8px
+}
+.EditInput{
+  border: none;
+  border-bottom: 1px solid black;
+  background-color:  rgb(255, 255, 153);
+
+}
+.EditInput:focus{
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.EditButton{
+  background-color: rgb(255, 255, 153);
+  border: none;
+  cursor:pointer;
+  color:black;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+.Todo{
+  flex:1;
+  
+}
+.Date{
+  font-size: 14px;
+  
+
+}
+.DeleteButton{
+  background-color: white;
+  cursor:pointer;
+  color:black;
+  font-size: 14px;
+  border: 1px solid RGB(220, 220, 220);
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: auto; 
+
+}
