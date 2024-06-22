@@ -19,7 +19,7 @@ const Todoitem = ({ todo }) => {
   const onHandleContentChange2 = (e) => {
     if (e.key === "Enter" || e.type === "click") {
       if (editedContent.trim() === '') {
-        onDelete(todo.id);
+        setIsEditing(false);
       } else {
         onUpdate(todo.id, todo.isDone, editedContent);
         setIsEditing(false); // 수정모드 종료
