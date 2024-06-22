@@ -31,7 +31,7 @@
 
 ## 🎞 미리보기
 
-<br>
+
 ![preview](https://github.com/doyeon01/TodoList/assets/156388715/f8cacb15-8496-4440-b0d5-ad475cad23b6)
 <br>
 
